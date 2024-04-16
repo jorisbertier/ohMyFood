@@ -6,7 +6,7 @@ footer {
 
     img {
         filter: invert(100%);
-        padding-inline-start: 40px;
+        padding-inline-start: 10px;
         width: 137.58px;
         height: 27px;
         opacity: 0px;
@@ -14,5 +14,13 @@ footer {
 
     ul {
         list-style: none;
+        padding-inline-start: 10px;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 30.75px;
+
+        i {
+            margin-right: 10px;
+        }
     }
 }
