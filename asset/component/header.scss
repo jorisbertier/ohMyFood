@@ -3,7 +3,9 @@ header {
     display: flex;
     flex-direction: column;
     .header__position {
-        background: $third-color;
+        display: flex;
+        flex-direction: row;
+        background: red;
     }
     .header__menu {
         background: $secondary-color;
