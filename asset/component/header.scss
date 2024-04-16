@@ -4,17 +4,53 @@ header {
     justify-content: center;
     flex-direction: column;
 
+    h1 {
+        font-weight: 700;
+        font-size: 24px;
+    }
+
+    p {
+        font-weight: 300;
+        font-size: 18px;
+    }
+
     .header__position {
         display: flex;
         flex-direction: row;
         justify-content: center;
         background: $third-color;
+
+        i{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-right: 20px;
+        }
     }
 
     .header__explore {
         display: flex;
         flex-direction: column;
+        justify-content: center;
         align-items: center;
         background-color: $secondary-color;
+        padding-bottom: 30px;
+        padding-top: 20px;
+
+        p {
+            text-align: center;
+        }
+    }
+
+    button {
+        width: 186px;
+        height: 50px;
+        font-weight: 500;
+        font-size: 16px;
+        color: $background-color;
+        background: linear-gradient(193.33deg, #9356DC -11.44%, #FF79DA 123.93%);
+        border-radius: 25px;
+        border: none;
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
     }
 }
