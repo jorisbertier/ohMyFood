@@ -96,14 +96,22 @@ footer ul i {
 }
 
 .wrapper__search {
+  display: flex;
+  flex-direction: column;
+}
+.wrapper__search .wrapper__search--title {
+  margin-left: 5%;
+}
+.wrapper__search .wrapper__section {
   width: 100%;
 }
-.wrapper__search .wrapper__search__section {
+.wrapper__search .wrapper__section .wrapper__search__section {
   display: flex;
   justify-content: center;
   position: relative;
+  margin-bottom: 30px;
 }
-.wrapper__search .wrapper__search__section .wrapper__search__section--number {
+.wrapper__search .wrapper__section .wrapper__search__section .wrapper__search__section--number {
   background-color: #9356DC;
   border-radius: 50%;
   color: white;
@@ -118,10 +126,14 @@ footer ul i {
   position: absolute;
   top: 25px;
   left: 14px;
+  transform: translateX(-50%);
   z-index: 1;
 }
-.wrapper__search .wrapper__search__section .wrapper__search__section--button i {
+.wrapper__search .wrapper__section .wrapper__search__section .wrapper__search__section--button i {
   color: #7E7E7E;
+}
+.wrapper__search .wrapper__section .wrapper__search__section .wrapper__search__section--button i:nth-child(3) {
+  color: #9356DC;
 }
 
 /* Button */
@@ -140,9 +152,9 @@ footer ul i {
 /* Button first section*/
 .wrapper__search__section--button {
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
-  width: 322.49px;
+  width: 90%;
   height: 72.38px;
   top: 602.3px;
   left: 32.51px;
@@ -154,7 +166,10 @@ footer ul i {
   font-size: 16px;
   font-weight: 500;
   line-height: 18.75px;
-  gap: 35px;
+  padding-right: 12%;
+  padding-left: 5%;
+  margin-left: 5%;
+  margin-right: 5%;
 }
 
 /*# sourceMappingURL=style.css.map */

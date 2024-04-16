@@ -14,9 +14,9 @@
 
 .wrapper__search__section--button {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
-    width: 322.49px;
+    width: 90%;
     height: 72.38px;
     top: 602.3px;
     left: 32.51px;
@@ -28,5 +28,8 @@
     font-size: 16px;
     font-weight: 500;
     line-height: 18.75px;
-    gap: 35px;
+    padding-right: 12%;
+    padding-left: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
 }
