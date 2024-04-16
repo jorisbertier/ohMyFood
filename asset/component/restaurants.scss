@@ -9,6 +9,7 @@
     a {
         display: flex;
         text-decoration: none;
+        color: $main-color;
         box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
         border-radius: 15px;
         width: 90%;
@@ -43,7 +44,12 @@
                         width: 50%;
                         padding: 10px;
                         margin-bottom: 10px;
-                        line-height: 0.5;
+                        line-height: 0.3;
+
+                        span {
+                            font-size: 17px;
+                            font-weight: 300;
+                        }
                     }
                     &-txt:nth-child(2) {
                         display: flex;
@@ -51,6 +57,10 @@
                         align-items: center;
                         width: 50%;
                         padding: 10px;
+
+                        i {
+                            font-size: 22px;
+                        }
                     }
                 }
 
