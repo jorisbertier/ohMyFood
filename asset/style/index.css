@@ -95,8 +95,23 @@ footer ul i {
   margin-right: 10px;
 }
 
+.wrapper__search {
+  width: 100%;
+}
+.wrapper__search .wrapper__search__section {
+  display: flex;
+  flex-direction: row;
+}
+.wrapper__search .wrapper__search__section .wrapper__search__section--number {
+  background-color: #9356DC;
+  border-radius: 50%;
+  color: white;
+  font-weight: 700;
+  font-size: 15px;
+}
+
 /* Button */
-button {
+.header__position--button {
   width: 186px;
   height: 50px;
   font-weight: 600;
