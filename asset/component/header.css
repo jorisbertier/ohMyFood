@@ -1,0 +1,12 @@
+header {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background-color: red;
+  flex-direction: column;
+}
+header .header__position {
+  display: flex;
+  flex-direction: row;
+  background: red;
+}/*# sourceMappingURL=header.css.map */
