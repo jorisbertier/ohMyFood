@@ -136,6 +136,51 @@ footer ul i {
   color: #9356DC;
 }
 
+.restaurants {
+  display: flex;
+  flex-direction: column;
+}
+.restaurants .restaurants--title {
+  margin-left: 5%;
+}
+.restaurants a {
+  display: flex;
+  text-decoration: none;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  border-radius: 15px;
+  width: 90%;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+.restaurants a .restaurants__wrapper {
+  width: 100%;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+.restaurants a .restaurants__wrapper--card {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.restaurants a .restaurants__wrapper--card img {
+  width: 100%;
+  height: 231px;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+.restaurants a .restaurants__wrapper--card-content {
+  display: flex;
+}
+.restaurants a .restaurants__wrapper--card-content-txt {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 50%;
+  padding: 15px;
+  margin-bottom: 10px;
+  line-height: 0.5;
+}
+
 /* Button */
 .header__position--button {
   width: 186px;
