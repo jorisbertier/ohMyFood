@@ -1,1 +1,1 @@
-{"version":3,"sourceRoot":"","sources":["../asset/component/variable.scss","../asset/component/navbar.scss"],"names":[],"mappings":"AAQA;ACRA;EACI;EACA;EACA;EACA;EACA","file":"style.css"}
+{"version":3,"sourceRoot":"","sources":["../asset/component/variable.scss","../asset/component/navbar.scss","../asset/component/body-style.scss"],"names":[],"mappings":"AAQA;ACRA;EACI;EACA;EACA;EACA;EACA;;;ACLJ;EACI;EACA","file":"style.css"}
