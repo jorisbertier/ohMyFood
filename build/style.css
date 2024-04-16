@@ -179,7 +179,7 @@ footer ul i {
   display: flex;
   justify-content: center;
   flex-direction: column;
-  width: 50%;
+  width: 70%;
   padding: 10px;
   margin-bottom: 10px;
   line-height: 0.3;
@@ -192,10 +192,10 @@ footer ul i {
   display: flex;
   justify-content: end;
   align-items: center;
-  width: 50%;
+  width: 30%;
   padding: 10px;
 }
-.restaurants .restaurants__wrapper--card-content-txt:nth-child(2) i {
+.restaurants .restaurants__wrapper--card-content-txt:nth-child(2) .fa-regular {
   font-size: 22px;
 }
 
