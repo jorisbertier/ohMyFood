@@ -1,10 +1,16 @@
 /* Artefacts */
-body {
-  margin: 0;
-  padding: 0;
-  height: 100%;
+nav {
+  display: flex;
+  justify-content: center;
   width: 100%;
-  background: yellow;
+  max-width: 100%;
+  height: 5%;
+  border-bottom: 1px solid black;
+  padding: 20px;
+}
+nav img {
+  width: 197px;
+  height: 36px;
 }
 
 body {
