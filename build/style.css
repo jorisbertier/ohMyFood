@@ -41,8 +41,11 @@ header .header__explore {
 footer {
   width: 100%;
   background: #353535;
+  color: white;
 }
 footer img {
+  filter: invert(100%);
+  padding-inline-start: 40px;
   width: 137.58px;
   height: 27px;
   opacity: 0px;

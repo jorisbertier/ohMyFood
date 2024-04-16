@@ -2,8 +2,10 @@ footer {
     width: 100%;
     background: $background-footer-color;
     color: $background-color;
+    padding: 22px;
 
     img {
+        filter: invert(100%);
         padding-inline-start: 40px;
         width: 137.58px;
         height: 27px;
