@@ -1,81 +1,71 @@
 .restaurants {
     display: flex;
     flex-direction: column;
+    margin-bottom: 95px;
 
     .restaurants--title {
         margin-left: 5%;
     }
+        .restaurants__wrapper {
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            gap: 30px;
+    
+            a {
+                display: flex;
+                text-decoration: none;
+                color: $main-color;
+                box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+                border-radius: 15px;
+                width: 90%;
+                margin-left: 5%;
+                margin-right: 5%;
+            }
 
-    // a {
-    //     display: flex;
-    //     text-decoration: none;
-    //     color: $main-color;
-    //     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
-    //     border-radius: 15px;
-    //     width: 90%;
-    //     margin-left: 5%;
-    //     margin-right: 5%;
-        
-            .restaurants__wrapper {
+            &--card {
                 display: flex;
                 flex-direction: column;
                 width: 100%;
-        
-                a {
-                    display: flex;
-                    text-decoration: none;
-                    color: $main-color;
-                    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
-                    border-radius: 15px;
-                    width: 90%;
-                    margin-left: 5%;
-                    margin-right: 5%;
-                }
-
-                &--card {
-                    display: flex;
-                    flex-direction: column;
+    
+                img {
                     width: 100%;
-        
-                    img {
-                        width: 100%;
-                        height: 231px;
-                        border-top-left-radius: 15px;
-                        border-top-right-radius: 15px;
-                        object-fit: cover;
-                    }
+                    height: 231px;
+                    border-top-left-radius: 15px;
+                    border-top-right-radius: 15px;
+                    object-fit: cover;
                 }
+            }
 
-                &--card-content {
+            &--card-content {
+                display: flex;
+                
+                &-txt:nth-child(1) {
                     display: flex;
-                    
-                    &-txt:nth-child(1) {
-                        display: flex;
-                        justify-content: center;
-                        flex-direction: column;
-                        width: 50%;
-                        padding: 10px;
-                        margin-bottom: 10px;
-                        line-height: 0.3;
+                    justify-content: center;
+                    flex-direction: column;
+                    width: 50%;
+                    padding: 10px;
+                    margin-bottom: 10px;
+                    line-height: 0.3;
 
-                        span {
-                            font-size: 17px;
-                            font-weight: 300;
-                        }
-                    }
-                    &-txt:nth-child(2) {
-                        display: flex;
-                        justify-content: end;
-                        align-items: center;
-                        width: 50%;
-                        padding: 10px;
-
-                        i {
-                            font-size: 22px;
-                        }
+                    span {
+                        font-size: 17px;
+                        font-weight: 300;
                     }
                 }
+                &-txt:nth-child(2) {
+                    display: flex;
+                    justify-content: end;
+                    align-items: center;
+                    width: 50%;
+                    padding: 10px;
 
-            // }
+                    i {
+                        font-size: 22px;
+                    }
+                }
+            }
+
     }
 }

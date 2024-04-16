@@ -139,6 +139,7 @@ footer ul i {
 .restaurants {
   display: flex;
   flex-direction: column;
+  margin-bottom: 95px;
 }
 .restaurants .restaurants--title {
   margin-left: 5%;
@@ -147,6 +148,7 @@ footer ul i {
   display: flex;
   flex-direction: column;
   width: 100%;
+  gap: 30px;
 }
 .restaurants .restaurants__wrapper a {
   display: flex;
