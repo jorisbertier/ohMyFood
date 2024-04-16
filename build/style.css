@@ -111,7 +111,7 @@ footer ul i {
   position: relative;
   margin-bottom: 30px;
 }
-.wrapper__search .wrapper__section .wrapper__search__section .wrapper__search__section--number {
+.wrapper__search .wrapper__section .wrapper__search__section--number {
   background-color: #9356DC;
   border-radius: 50%;
   color: white;
@@ -129,10 +129,10 @@ footer ul i {
   transform: translateX(-50%);
   z-index: 1;
 }
-.wrapper__search .wrapper__section .wrapper__search__section .wrapper__search__section--button i {
+.wrapper__search .wrapper__section .wrapper__search__section--button i {
   color: #7E7E7E;
 }
-.wrapper__search .wrapper__section .wrapper__search__section .wrapper__search__section--button .wrapper__search__section--button--violet {
+.wrapper__search .wrapper__section .wrapper__search__section--button .wrapper__search__section--button--violet {
   color: #9356DC;
 }
 

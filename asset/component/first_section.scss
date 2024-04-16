@@ -15,7 +15,7 @@
             position: relative;
             margin-bottom: 30px;
     
-            .wrapper__search__section--number {
+            &--number {
                 background-color: $button-color;
                 border-radius: 50%;
                 color: $background-color;
@@ -34,11 +34,11 @@
                 z-index: 1;
             }
 
-            .wrapper__search__section--button i {
+            &--button i {
                 color: #7E7E7E;
             }
 
-            .wrapper__search__section--button .wrapper__search__section--button--violet {
+            &--button .wrapper__search__section--button--violet {
                 color: $button-color;
             }
         }

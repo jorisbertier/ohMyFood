@@ -1,0 +1,20 @@
+.restaurants {
+  display: flex;
+  flex-direction: column;
+}
+.restaurants .restaurants--title {
+  margin-left: 5%;
+}
+.restaurants .restaurants__wrapper {
+  width: 90%;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+.restaurants .restaurants__wrapper--card {
+  display: flex;
+  flex-direction: column;
+}
+.restaurants .restaurants__wrapper--card img {
+  width: 346px;
+  height: 231px;
+}/*# sourceMappingURL=restaurants.css.map */

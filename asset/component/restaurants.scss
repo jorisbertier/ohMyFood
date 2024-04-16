@@ -1,0 +1,23 @@
+.restaurants {
+    display: flex;
+    flex-direction: column;
+    .restaurants--title {
+        margin-left: 5%;
+    }
+    .restaurants__wrapper {
+        width: 90%;
+        margin-left: 5%;
+        margin-right: 5%;
+
+        &--card {
+            display: flex;
+            flex-direction: column;
+
+            img {
+            width: 346px;
+            height: 231px;
+
+            }
+        }
+    }
+}
