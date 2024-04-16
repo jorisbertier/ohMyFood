@@ -1,4 +1,10 @@
 /* Artefacts */
+body {
+  margin: 0;
+  padding: 0;
+  color: black;
+}
+
 nav {
   display: flex;
   justify-content: center;
@@ -13,21 +19,21 @@ nav img {
   height: 36px;
 }
 
-body {
-  margin: 0;
-  padding: 0;
-  color: black;
-}
-
 header {
   width: 100%;
   display: flex;
   justify-content: center;
-  background-color: red;
   flex-direction: column;
 }
 header .header__position {
   display: flex;
   flex-direction: row;
-  background: red;
+  justify-content: center;
+  background: #EAEAEA;
+}
+header .header__explore {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #F6F6F6;
 }/*# sourceMappingURL=index.css.map */
