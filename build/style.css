@@ -100,7 +100,8 @@ footer ul i {
 }
 .wrapper__search .wrapper__search__section {
   display: flex;
-  flex-direction: row;
+  justify-content: center;
+  position: relative;
 }
 .wrapper__search .wrapper__search__section .wrapper__search__section--number {
   background-color: #9356DC;
@@ -108,6 +109,19 @@ footer ul i {
   color: white;
   font-weight: 700;
   font-size: 15px;
+  width: 24px;
+  height: 24px;
+  gap: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 25px;
+  left: 14px;
+  z-index: 1;
+}
+.wrapper__search .wrapper__search__section .wrapper__search__section--button i {
+  color: #7E7E7E;
 }
 
 /* Button */
@@ -121,6 +135,26 @@ footer ul i {
   border-radius: 25px;
   border: none;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+/* Button first section*/
+.wrapper__search__section--button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 322.49px;
+  height: 72.38px;
+  top: 602.3px;
+  left: 32.51px;
+  border-radius: 20px;
+  background: #F6F6F6;
+  border: none;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 18.75px;
+  gap: 35px;
 }
 
 /*# sourceMappingURL=style.css.map */

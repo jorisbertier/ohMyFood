@@ -3,13 +3,28 @@
 
     .wrapper__search__section {
         display: flex;
-        flex-direction: row;
+        justify-content: center;
+        position: relative;
+
         .wrapper__search__section--number {
             background-color: $button-color;
             border-radius: 50%;
             color: $background-color;
             font-weight: 700;
             font-size: 15px;
+            width: 24px;
+            height: 24px;
+            gap: 0px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: absolute;
+            top: 25px;
+            left: 14px;
+            z-index: 1;
+        }
+        .wrapper__search__section--button i {
+            color: #7E7E7E;
         }
     }
 }

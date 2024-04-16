@@ -9,3 +9,24 @@
     border: none;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
+
+/* Button first section*/
+
+.wrapper__search__section--button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 322.49px;
+    height: 72.38px;
+    top: 602.3px;
+    left: 32.51px;
+    border-radius: 20px;
+    background: $background-secondary-color;
+    border: none;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 18.75px;
+    gap: 35px;
+}
