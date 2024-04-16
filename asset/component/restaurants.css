@@ -33,12 +33,19 @@
 .restaurants a .restaurants__wrapper--card-content {
   display: flex;
 }
-.restaurants a .restaurants__wrapper--card-content-txt {
+.restaurants a .restaurants__wrapper--card-content-txt:nth-child(1) {
   display: flex;
   justify-content: center;
   flex-direction: column;
   width: 50%;
-  padding: 15px;
+  padding: 10px;
   margin-bottom: 10px;
   line-height: 0.5;
+}
+.restaurants a .restaurants__wrapper--card-content-txt:nth-child(2) {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  width: 50%;
+  padding: 10px;
 }/*# sourceMappingURL=restaurants.css.map */
