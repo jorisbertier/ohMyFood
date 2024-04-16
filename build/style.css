@@ -143,7 +143,12 @@ footer ul i {
 .restaurants .restaurants--title {
   margin-left: 5%;
 }
-.restaurants a {
+.restaurants .restaurants__wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.restaurants .restaurants__wrapper a {
   display: flex;
   text-decoration: none;
   color: black;
@@ -153,26 +158,22 @@ footer ul i {
   margin-left: 5%;
   margin-right: 5%;
 }
-.restaurants a .restaurants__wrapper {
-  width: 100%;
-  margin-left: 5%;
-  margin-right: 5%;
-}
-.restaurants a .restaurants__wrapper--card {
+.restaurants .restaurants__wrapper--card {
   display: flex;
   flex-direction: column;
   width: 100%;
 }
-.restaurants a .restaurants__wrapper--card img {
+.restaurants .restaurants__wrapper--card img {
   width: 100%;
   height: 231px;
   border-top-left-radius: 15px;
   border-top-right-radius: 15px;
+  object-fit: cover;
 }
-.restaurants a .restaurants__wrapper--card-content {
+.restaurants .restaurants__wrapper--card-content {
   display: flex;
 }
-.restaurants a .restaurants__wrapper--card-content-txt:nth-child(1) {
+.restaurants .restaurants__wrapper--card-content-txt:nth-child(1) {
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -181,19 +182,19 @@ footer ul i {
   margin-bottom: 10px;
   line-height: 0.3;
 }
-.restaurants a .restaurants__wrapper--card-content-txt:nth-child(1) span {
+.restaurants .restaurants__wrapper--card-content-txt:nth-child(1) span {
   font-size: 17px;
   font-weight: 300;
 }
-.restaurants a .restaurants__wrapper--card-content-txt:nth-child(2) {
+.restaurants .restaurants__wrapper--card-content-txt:nth-child(2) {
   display: flex;
   justify-content: end;
   align-items: center;
   width: 50%;
   padding: 10px;
 }
-.restaurants a .restaurants__wrapper--card-content-txt:nth-child(2) i {
-  font-size: 40px;
+.restaurants .restaurants__wrapper--card-content-txt:nth-child(2) i {
+  font-size: 22px;
 }
 
 /* Button */

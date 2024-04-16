@@ -5,47 +5,49 @@
 .restaurants .restaurants--title {
   margin-left: 5%;
 }
-.restaurants a {
+.restaurants .restaurants__wrapper {
   display: flex;
-  text-decoration: none;
-  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
-  border-radius: 15px;
-  width: 90%;
-  margin-left: 5%;
-  margin-right: 5%;
-}
-.restaurants a .restaurants__wrapper {
+  flex-direction: column;
   width: 100%;
   margin-left: 5%;
   margin-right: 5%;
 }
-.restaurants a .restaurants__wrapper--card {
+.restaurants .restaurants__wrapper--card {
   display: flex;
   flex-direction: column;
   width: 100%;
 }
-.restaurants a .restaurants__wrapper--card img {
+.restaurants .restaurants__wrapper--card img {
   width: 100%;
   height: 231px;
   border-top-left-radius: 15px;
   border-top-right-radius: 15px;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
-.restaurants a .restaurants__wrapper--card-content {
+.restaurants .restaurants__wrapper--card-content {
   display: flex;
 }
-.restaurants a .restaurants__wrapper--card-content-txt:nth-child(1) {
+.restaurants .restaurants__wrapper--card-content-txt:nth-child(1) {
   display: flex;
   justify-content: center;
   flex-direction: column;
   width: 50%;
   padding: 10px;
   margin-bottom: 10px;
-  line-height: 0.5;
+  line-height: 0.3;
 }
-.restaurants a .restaurants__wrapper--card-content-txt:nth-child(2) {
+.restaurants .restaurants__wrapper--card-content-txt:nth-child(1) span {
+  font-size: 17px;
+  font-weight: 300;
+}
+.restaurants .restaurants__wrapper--card-content-txt:nth-child(2) {
   display: flex;
   justify-content: end;
   align-items: center;
   width: 50%;
   padding: 10px;
+}
+.restaurants .restaurants__wrapper--card-content-txt:nth-child(2) i {
+  font-size: 22px;
 }/*# sourceMappingURL=restaurants.css.map */
