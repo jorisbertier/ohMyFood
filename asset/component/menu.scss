@@ -2,9 +2,10 @@
     background-color: $background-secondary-color;
     
     &-heading {
-        margin-right: 5%;
+        margin-left: 5%;
         font-size: 16px;
         font-weight: 300;
+        text-transform: uppercase;
     }
 
     &-item {
@@ -12,7 +13,7 @@
         flex-direction: column;
         gap: 40px;
     }
-    
+
     &-article {
         display: flex;
         height: 70px;
