@@ -1,0 +1,6 @@
+.header_palette img {
+  width: 100%;
+  height: 275px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}/*# sourceMappingURL=header.css.map */
