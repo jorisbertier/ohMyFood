@@ -1,0 +1,78 @@
+.main__palette-menu {
+    background-color: $background-secondary-color;
+    
+    &-item {
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+    }
+    &-article {
+        display: flex;
+        height: 70px;
+        justify-content: space-between;
+        width: 90%;
+        margin-right: 5%;
+        margin-left: 5%;
+        background: $background-color;
+        border-radius: 15px;
+
+        &-info {
+            margin-left: 20px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        &-title {
+                font-size: 18px;
+                font-weight: 500;
+                height: 30px;
+                margin-bottom: -10px;
+        }
+
+        &-description {
+            font-size: 15.04px;
+            font-weight: 300;
+            height: 40%;
+        }
+
+        .main__palette-menu-container {
+            display: flex;
+                &-price {
+                    display: flex;
+                    align-items: flex-end;
+                    margin-right: 20px;
+                    margin-bottom: 14px;
+                    font-size: 15.04px;
+                    font-weight: 700;
+                    line-height: 17.63px;
+                    
+                }
+        
+                &-color {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    border-top-right-radius: 15px;
+                    border-bottom-right-radius: 15px;
+                    background-color: $green-light-color;
+                    width: 0;
+                    position: relative; 
+                    height: 70px;
+                    visibility: hidden;
+                    transition: 0.2s ease-in;
+
+                    i {
+                        color: $background-color;
+                        width: 20px;
+                        height: 20px;
+                        top: 24.97px;
+                    }
+            }
+        }
+    }
+}
+.main__palette-menu-article:hover .main__palette-menu-container-color {
+    visibility: visible;
+    width: 59px;
+}
