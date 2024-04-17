@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/build/style.css" >
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Shrikhand&display=swap">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>La palette du goût</title>
 </head>
@@ -22,15 +23,16 @@
         <div class="main__palette main__palette--modifier">
             <div class="main__palette-title">
                 <h1 class="main__palette-title-text">La palette du goût</h1>
-                <i class="main__palette-title-icon"></i>
+                <div class="main__palette-title-icon">
+                    <i class="fa-regular fa-heart"></i>
+                </div>
             </div>
+
             <div class="main__palette-menu">
                 <div class="main__palette-menu-heading">
                     <h2 class="main__palette-menu-heading-text">Entrées</h2>
                     <span class="main__palette-menu-heading-border"></span>
                 </div>
-                <!-- <h2 class="main__palette-menu-heading">Entrées</h2>
-                <span class="main__palette-menu-heading-border"></span> -->
                 <div class="main__palette-menu-item">
                     <article class="main__palette-menu-article">
                         <div class="main__palette-menu-article-info">
@@ -69,13 +71,103 @@
                         </div>
                     </article>
                 </div>
+
+            <div class="main__palette-menu">
+                <div class="main__palette-menu-heading">
+                    <h2 class="main__palette-menu-heading-text">Plats</h2>
+                    <span class="main__palette-menu-heading-border"></span>
+                </div>
+                <div class="main__palette-menu-item">
+                    <article class="main__palette-menu-article">
+                        <div class="main__palette-menu-article-info">
+                            <h3 class="main__palette-menu-article-title">Filet de boeuf aux herbes</h3>
+                            <p class="main__palette-menu-article-description">Accompagné de sa ribambelle de légumes</p>
+                        </div>
+                        <div class="main__palette-menu-container">
+                            <div class="main__palette-menu-container-price">40€</div>
+                            <div class="main__palette-menu-container-color">
+                                <i class="fa-solid fa-circle-check"></i>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="main__palette-menu-article">
+                        <div class="main__palette-menu-article-info">
+                            <h3 class="main__palette-menu-article-title">Parmentier de queue de boeuf</h3>
+                            <p class="main__palette-menu-article-description">À la truffe noire sur sa purée de panais</p>
+                        </div>
+                        <div class="main__palette-menu-container">
+                            <div class="main__palette-menu-container-price">35€</div>
+                            <div class="main__palette-menu-container-color">
+                                <i class="fa-solid fa-circle-check"></i>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="main__palette-menu-article">
+                        <div class="main__palette-menu-article-info">
+                            <h3 class="main__palette-menu-article-title">Filet de turbot</h3>
+                            <p class="main__palette-menu-article-description">Aux agrumes</p>
+                        </div>
+                        <div class="main__palette-menu-container">
+                            <div class="main__palette-menu-container-price">44€</div>
+                            <div class="main__palette-menu-container-color">
+                                <i class="fa-solid fa-circle-check"></i>
+                            </div>
+                        </div>
+                    </article>
+                </div>
             </div>
+
+            <div class="main__palette-menu">
+                <div class="main__palette-menu-heading">
+                    <h2 class="main__palette-menu-heading-text">Desserts</h2>
+                    <span class="main__palette-menu-heading-border"></span>
+                </div>
+                <div class="main__palette-menu-item">
+                    <article class="main__palette-menu-article">
+                        <div class="main__palette-menu-article-info">
+                            <h3 class="main__palette-menu-article-title">Paris-Brest</h3>
+                            <p class="main__palette-menu-article-description">Revisité</p>
+                        </div>
+                        <div class="main__palette-menu-container">
+                            <div class="main__palette-menu-container-price">18€</div>
+                            <div class="main__palette-menu-container-color">
+                                <i class="fa-solid fa-circle-check"></i>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="main__palette-menu-article">
+                        <div class="main__palette-menu-article-info">
+                            <h3 class="main__palette-menu-article-title">Macaron au chocolat d'exception</h3>
+                            <p class="main__palette-menu-article-description">Et glace à la vanille de Madagascar</p>
+                        </div>
+                        <div class="main__palette-menu-container">
+                            <div class="main__palette-menu-container-price">22€</div>
+                            <div class="main__palette-menu-container-color">
+                                <i class="fa-solid fa-circle-check"></i>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="main__palette-menu-article">
+                        <div class="main__palette-menu-article-info">
+                            <h3 class="main__palette-menu-article-title">Mousse au chocolat</h3>
+                            <p class="main__palette-menu-article-description">Au piment d'Espelette et à la truffe noire</p>
+                        </div>
+                        <div class="main__palette-menu-container">
+                            <div class="main__palette-menu-container-price">23€</div>
+                            <div class="main__palette-menu-container-color">
+                                <i class="fa-solid fa-circle-check"></i>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+
         </div>
     </main>
 
 
 
-    <footer>
+    <!-- <footer>
         <img src="../asset/img/logo/ohmyfood@2x.svg" alt="logo ohMyFood">
         <ul>
             <li>
@@ -89,6 +181,6 @@
             <li>Mentions légales</li>
             <li>Contact</li>
         </ul>
-    </footer>
+    </footer> -->
 </body>
 </html>
