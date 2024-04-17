@@ -200,13 +200,29 @@ footer ul i {
   font-size: 22px;
 }
 
-.main__palette-menu {
+.main__palette {
   background-color: #F6F6F6;
 }
 .main__palette-menu-heading {
+  position: relative;
+  margin-bottom: 10px;
+}
+.main__palette-menu-heading-text {
   margin-left: 5%;
   font-size: 16px;
   font-weight: 300;
+  text-transform: uppercase;
+  position: relative;
+  z-index: 2;
+}
+.main__palette-menu-heading-border {
+  position: absolute;
+  bottom: -5px;
+  width: 40px;
+  height: 3px;
+  background-color: #99E2D0;
+  z-index: 1;
+  margin-left: 5%;
 }
 .main__palette-menu-item {
   display: flex;
