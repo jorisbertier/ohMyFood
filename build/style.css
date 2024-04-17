@@ -203,6 +203,11 @@ footer ul i {
 .main__palette-menu {
   background-color: #F6F6F6;
 }
+.main__palette-menu-heading {
+  margin-right: 5%;
+  font-size: 16px;
+  font-weight: 300;
+}
 .main__palette-menu-item {
   display: flex;
   flex-direction: column;

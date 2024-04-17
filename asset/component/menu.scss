@@ -1,11 +1,18 @@
 .main__palette-menu {
     background-color: $background-secondary-color;
     
+    &-heading {
+        margin-right: 5%;
+        font-size: 16px;
+        font-weight: 300;
+    }
+
     &-item {
         display: flex;
         flex-direction: column;
         gap: 40px;
     }
+    
     &-article {
         display: flex;
         height: 70px;
