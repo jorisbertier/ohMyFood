@@ -207,6 +207,10 @@ footer ul i {
   object-fit: cover;
 }
 
+main .main__palette {
+  height: 1000px;
+}
+
 /* Button */
 .header__position--button {
   width: 186px;

@@ -202,6 +202,17 @@ footer ul i {
 }
 
 /* Restaurants */
+.header__palette img {
+  width: 100%;
+  height: 275px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.main__palette-menu {
+  height: 1000px;
+}
+
 /* Button */
 .header__position--button {
   width: 186px;
