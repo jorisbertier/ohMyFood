@@ -122,10 +122,10 @@
                                 -ms-transform: scale(0);
                                     transform: scale(0);
                             /* Permet l'apparition du coeur plein */
-                            // -webkit-transition: -webkit-transform 300ms ease-in-out;
-                            // transition: -webkit-transform 300ms ease-in-out;
-                            // -o-transition: transform 300ms ease-in-out;
-                            // transition: transform 300ms ease-in-out;
+                            -webkit-transition: -webkit-transform 300ms ease-in-out;
+                            transition: -webkit-transform 300ms ease-in-out;
+                            -o-transition: transform 300ms ease-in-out;
+                            transition: transform 300ms ease-in-out;
                             transition: transform 300ms ease-in-out, -webkit-transform 300ms ease-in-out;
                             // z-index: 3;
                         }
