@@ -417,12 +417,17 @@ footer ul a i {
   }
 }
 /* Restaurants */
-.header_palette img {
+.header__palette img {
   width: 100%;
   height: 275px;
   object-fit: cover;
 }
 
+@media (min-width: 1024px) {
+  .header__palette img {
+    height: 500px;
+  }
+}
 /* Button */
 .button-radient {
   width: 186px;
