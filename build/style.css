@@ -176,7 +176,7 @@ footer ul a i {
   display: flex;
   flex-direction: column;
 }
-.wrapper__search .wrapper__search-title {
+.wrapper__search-title {
   margin-left: 5%;
 }
 .wrapper__search .wrapper__section {
