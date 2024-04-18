@@ -202,7 +202,7 @@ footer ul a i {
   align-items: center;
   position: absolute;
   top: 25px;
-  left: 26px;
+  left: 23px;
   transform: translateX(-50%);
   z-index: 1;
 }
@@ -382,6 +382,7 @@ footer ul a i {
   margin-left: 5%;
   background: white;
   border-radius: 15px;
+  cursor: pointer;
 }
 .main__palette-menu-article-info {
   margin-left: 20px;
@@ -480,7 +481,6 @@ footer ul a i {
   #main__palette .main__palette-menu-article {
     width: 70%;
     margin-left: 15%;
-    cursor: pointer;
   }
 }
 /* Restaurants */

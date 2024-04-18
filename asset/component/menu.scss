@@ -68,6 +68,7 @@
             margin-left: 5%;
             background: $background-color;
             border-radius: 15px;
+            cursor: pointer;
 
             &-info {
                 margin-left: 20px;
@@ -196,7 +197,6 @@
                     &-article {
                         width: 70%;
                         margin-left: 15%;
-                        cursor: pointer;
                     }
                 }
             }
