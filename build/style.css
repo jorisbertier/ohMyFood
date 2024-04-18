@@ -506,6 +506,10 @@ footer ul a i {
   border-radius: 25px;
   border: none;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  transition: 0.2s;
+}
+.button-radient:hover {
+  opacity: 0.8;
 }
 
 /* Button position section*/
