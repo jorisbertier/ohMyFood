@@ -204,9 +204,10 @@ footer ul a i {
 .restaurants {
   display: flex;
   flex-direction: column;
-  margin-bottom: 95px;
+  padding-bottom: 95px;
+  background-color: #F6F6F6;
 }
-.restaurants .restaurants--title {
+.restaurants-title {
   margin-left: 5%;
 }
 .restaurants .restaurants__wrapper {
@@ -264,6 +265,31 @@ footer ul a i {
   font-size: 22px;
 }
 
+@media (min-width: 1024px) {
+  .restaurants {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding-bottom: 60px;
+  }
+  .restaurants-title {
+    margin-left: 0;
+    text-align: left;
+    width: 72%;
+  }
+  .restaurants .restaurants__wrapper {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 80%;
+  }
+  .restaurants .restaurants__wrapper a {
+    flex-basis: calc(45% - 15px);
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
 .main__palette {
   background-color: #F6F6F6;
   border-top-right-radius: 40px;

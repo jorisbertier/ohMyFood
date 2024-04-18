@@ -1,9 +1,10 @@
 .restaurants {
     display: flex;
     flex-direction: column;
-    margin-bottom: 95px;
+    padding-bottom: 95px;
+    background-color: $background-secondary-color;
 
-    .restaurants--title {
+    &-title {
         margin-left: 5%;
     }
         .restaurants__wrapper {
@@ -67,5 +68,34 @@
                 }
             }
 
+    }
+}
+
+@media (min-width: 1024px) {
+    .restaurants {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        padding-bottom: 60px;
+
+        &-title {
+            margin-left: 0;
+            text-align: left;
+            width: 72%;
+            padding-bottom: 10px;
+        }
+        .restaurants__wrapper {
+            display: flex;
+            justify-content: center;
+            flex-direction: row;
+            flex-wrap: wrap;
+            width: 80%;
+            
+            a {
+                flex-basis: calc(45% - 15px);
+                margin-left: 0;
+                margin-right: 0;
+            }
+        }
     }
 }
