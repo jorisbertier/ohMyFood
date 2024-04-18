@@ -117,6 +117,10 @@ footer ul i {
   margin-right: 10px;
 }
 
+.footer__restaurant {
+  margin-top: -45px;
+}
+
 .wrapper__search {
   display: flex;
   flex-direction: column;
@@ -350,7 +354,7 @@ footer ul i {
 }
 
 /* Button */
-.header__position--button {
+.button-radient {
   width: 186px;
   height: 50px;
   font-weight: 600;
@@ -362,7 +366,7 @@ footer ul i {
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 
-/* Button first section*/
+/* Button position section*/
 .wrapper__search__section--button {
   display: flex;
   justify-content: space-around;
@@ -383,6 +387,14 @@ footer ul i {
   padding-left: 5%;
   margin-left: 5%;
   margin-right: 5%;
+}
+
+.wrapper_menu--button {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  padding-top: 40px;
+  padding-bottom: 40px;
 }
 
 /*# sourceMappingURL=style.css.map */
