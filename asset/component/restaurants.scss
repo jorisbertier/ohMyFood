@@ -74,16 +74,17 @@
                         .heart--card {
                             -webkit-text-stroke: 0.05rem #fff;
                             /* Réduit l'épaiseur des contours du coeur vide */
-                          }
+                        }
                           
                         //   .heart--menu {
                         //     -webkit-text-stroke: 0.05rem #f6f6f6;
                         //     /* Réduit l'épaiseur des contours du coeur vide */
                         //   }
-                          .heart {
+                        .heart {
                             cursor: pointer;
-                          }
-                          .heart:hover {
+                        }
+
+                        .heart:hover {
                             background: -webkit-linear-gradient(60deg, #ff79da, #9356dc);
                             background: -o-linear-gradient(60deg, #ff79da, #9356dc);
                             background: linear-gradient(30deg, #ff79da, #9356dc);
@@ -94,16 +95,16 @@
                             /* Applique la couleur du background au texte (les coeurs sont du texte) */
                             -webkit-text-stroke: 0;
                             /* Supprime le text-stroke au survol */
-                          }
-                          
-                          .heart:hover + .heart-full {
+                        }
+
+                        .heart:hover + .heart-full {
                             -webkit-transform: scale(1);
                                 -ms-transform: scale(1);
                                     transform: scale(1);
                             /* Permet l'apparition du coeur plein */
-                          }
-                          
-                          .heart-full {
+                        }
+                        
+                        .heart-full {
                             padding-right: 10px;
                             position: absolute;
                             /* Pour que les coeurs aient la meme position */
@@ -127,7 +128,7 @@
                             // transition: transform 300ms ease-in-out;
                             transition: transform 300ms ease-in-out, -webkit-transform 300ms ease-in-out;
                             // z-index: 3;
-                          }
+                        }
                     }
                 }
                 .fa-solid {
