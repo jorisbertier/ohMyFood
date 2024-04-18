@@ -115,6 +115,8 @@ footer ul {
 }
 footer ul i {
   margin-right: 10px;
+  height: 15px;
+  width: 15px;
 }
 
 .footer__restaurant {
