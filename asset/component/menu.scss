@@ -2,9 +2,11 @@
     background-color: $background-secondary-color;
     border-top-right-radius: 40px;
     border-top-left-radius: 40px;
-    position: absolute;
+    position: relative;
     width: 100%;
-    top: 300px;
+    // top: 300px;
+    top: -45px;
+
 
     &-title {
         display: flex;
