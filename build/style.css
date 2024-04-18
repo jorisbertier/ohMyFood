@@ -201,6 +201,26 @@ footer ul a i {
   color: #9356DC;
 }
 
+@media (min-width: 1024px) {
+  .wrapper__search-title {
+    margin-left: 14%;
+  }
+  .wrapper__search .wrapper__section {
+    display: flex;
+    justify-content: center;
+  }
+  .wrapper__search .wrapper__section .wrapper__search__section {
+    width: 230px;
+  }
+  .wrapper__search .wrapper__section .wrapper__search__section--button p {
+    font-size: 11px;
+  }
+}
+@media (min-width: 1140px) {
+  .wrapper__search .wrapper__section .wrapper__search__section {
+    width: 330px;
+  }
+}
 .restaurants {
   display: flex;
   flex-direction: column;
@@ -276,6 +296,7 @@ footer ul a i {
     margin-left: 0;
     text-align: left;
     width: 72%;
+    padding-bottom: 10px;
   }
   .restaurants .restaurants__wrapper {
     display: flex;
