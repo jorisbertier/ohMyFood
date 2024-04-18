@@ -242,6 +242,7 @@ footer ul i {
 }
 .main__palette-title-text {
   font-family: "Shrikhand", cursive;
+  font-size: 24px;
 }
 .main__palette-title-icon {
   display: flex;
@@ -274,7 +275,7 @@ footer ul i {
 .main__palette-menu-item {
   display: flex;
   flex-direction: column;
-  gap: 40px;
+  gap: 20px;
 }
 .main__palette-menu-article {
   display: flex;
@@ -346,6 +347,29 @@ footer ul i {
   }
   .main__palette-menu-article-description {
     font-size: 15px;
+  }
+}
+@media (min-width: 1024px) {
+  #main__palette {
+    display: flex;
+    justify-content: center;
+  }
+  #main__palette .main__palette {
+    width: 80%;
+  }
+  #main__palette .main__palette-title {
+    margin-left: 10%;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  #main__palette .main__palette-menu-item {
+    justify-content: center;
+  }
+  #main__palette .main__palette-menu-article {
+    width: 70%;
+    margin-left: 15%;
   }
 }
 /* Restaurants */

@@ -4,7 +4,6 @@
     border-top-left-radius: 40px;
     position: relative;
     width: 100%;
-    // top: 300px;
     top: -45px;
 
 
@@ -15,6 +14,7 @@
 
         &-text {
             font-family: 'Shrikhand', cursive;
+            font-size: 24px;
         }
 
         &-icon {
@@ -55,7 +55,7 @@
         &-item {
             display: flex;
             flex-direction: column;
-            gap: 40px;
+            gap: 20px;
         }
 
         &-article {
@@ -131,6 +131,10 @@
 }
 
 @media (min-width: 376px) {
+    
+    // .main__palette-title-text {
+    //     font-size:20px;
+    // }
     .main__palette-menu-article {
         &-title {
             font-size: 18px;
@@ -138,5 +142,37 @@
         &-description {
             font-size: 15px;
         }
+    }
+}
+
+@media (min-width: 1024px) {
+
+    #main__palette {
+
+        display: flex;
+        justify-content: center;
+
+            .main__palette {
+                width: 80%;
+
+                &-title {
+                    margin-left: 10%;
+                    width: 80%;
+                    display: flex;
+                    justify-content: center;
+                    gap: 20px;
+                }
+
+                &-menu {
+
+                    &-item {
+                        justify-content: center;
+                    }
+                    &-article {
+                        width: 70%;
+                        margin-left: 15%;
+                    }
+                }
+            }
     }
 }
