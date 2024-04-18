@@ -399,7 +399,15 @@ footer ul a i {
     width: 80%;
     display: flex;
     justify-content: center;
-    gap: 20px;
+    gap: 35px;
+    padding-bottom: 20px;
+    padding-top: 40px;
+  }
+  #main__palette .main__palette-title-text {
+    font-size: 30px;
+  }
+  #main__palette .main__palette-title-icon i {
+    font-size: 22px;
   }
   #main__palette .main__palette-menu-heading-text {
     margin-left: 15%;
