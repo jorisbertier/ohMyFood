@@ -70,6 +70,12 @@
             border-radius: 15px;
             cursor: pointer;
 
+            &:hover &-description {
+                text-overflow: ellipsis;
+                // white-space: nowrap;
+                // overflow: hidden;
+            }
+
             &-info {
                 margin-left: 20px;
                 display: flex;

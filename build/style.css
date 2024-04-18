@@ -214,6 +214,36 @@ footer ul a i {
   color: #9356DC;
 }
 
+@media (min-width: 390px) {
+  .wrapper__search .wrapper__section .wrapper__search__section--number {
+    left: 28px;
+  }
+}
+@media (min-width: 455px) {
+  .wrapper__search .wrapper__section .wrapper__search__section--number {
+    left: 35px;
+  }
+}
+@media (min-width: 520px) {
+  .wrapper__search .wrapper__section .wrapper__search__section--number {
+    left: 38px;
+  }
+}
+@media (min-width: 610px) {
+  .wrapper__search .wrapper__section .wrapper__search__section--number {
+    left: 44px;
+  }
+}
+@media (min-width: 700px) {
+  .wrapper__search .wrapper__section .wrapper__search__section--number {
+    left: 49px;
+  }
+}
+@media (min-width: 768px) {
+  .wrapper__search .wrapper__section .wrapper__search__section--number {
+    left: 54px;
+  }
+}
 @media (min-width: 1024px) {
   .wrapper__search-title {
     margin-left: 14%;
@@ -228,10 +258,16 @@ footer ul a i {
   .wrapper__search .wrapper__section .wrapper__search__section--button p {
     font-size: 11px;
   }
+  .wrapper__search .wrapper__section .wrapper__search__section--number {
+    left: 13px;
+  }
 }
 @media (min-width: 1140px) {
   .wrapper__search .wrapper__section .wrapper__search__section {
     width: 330px;
+  }
+  .wrapper__search .wrapper__section .wrapper__search__section--number {
+    left: 25px;
   }
 }
 .restaurants {
@@ -307,7 +343,6 @@ footer ul a i {
 }
 .heart__container .heart {
   cursor: pointer;
-  height: 30px;
 }
 .heart__container .heart:hover {
   background: -webkit-linear-gradient(60deg, #ff79da, #9356dc);
@@ -438,6 +473,9 @@ footer ul a i {
   background: white;
   border-radius: 15px;
   cursor: pointer;
+}
+.main__palette-menu-article:hover .main__palette-menu-article-description {
+  text-overflow: ellipsis;
 }
 .main__palette-menu-article-info {
   margin-left: 20px;
