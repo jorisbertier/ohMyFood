@@ -299,6 +299,7 @@ footer ul a i {
   display: flex;
   flex-direction: column;
   width: 100%;
+  position: relative;
 }
 .restaurants .restaurants__wrapper--card img {
   width: 100%;
@@ -306,6 +307,21 @@ footer ul a i {
   border-top-left-radius: 15px;
   border-top-right-radius: 15px;
   object-fit: cover;
+}
+.restaurants .restaurants__wrapper--card-new {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 10%;
+  left: 64%;
+  background-color: #99E2D0;
+  height: 29px;
+  width: 80px;
+  color: #008766;
+  font-size: 14px;
+  font-weight: 500;
+  border-radius: 2px;
 }
 .restaurants .restaurants__wrapper--card-content {
   display: flex;
@@ -387,6 +403,12 @@ footer ul a i {
   transition: transform 300ms ease-in-out, -webkit-transform 300ms ease-in-out;
 }
 
+@media (min-width: 425px) {
+  .restaurants .restaurants__wrapper--card-new {
+    top: 5%;
+    left: 77%;
+  }
+}
 @media (min-width: 1024px) {
   .restaurants {
     width: 100%;
