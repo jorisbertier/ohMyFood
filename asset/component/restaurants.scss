@@ -80,10 +80,6 @@
         -webkit-text-stroke: 0.05rem #fff;
         /* Réduit l'épaiseur des contours du coeur vide */
     }
-    //   .heart--menu {
-    //     -webkit-text-stroke: 0.05rem #f6f6f6;
-    //     /* Réduit l'épaiseur des contours du coeur vide */
-    //   }
     .heart {
         cursor: pointer;
     }
@@ -131,7 +127,6 @@
         -o-transition: transform 300ms ease-in-out;
         transition: transform 300ms ease-in-out;
         transition: transform 300ms ease-in-out, -webkit-transform 300ms ease-in-out;
-        // z-index: 3;
     }
 }
 

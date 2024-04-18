@@ -307,6 +307,7 @@ footer ul a i {
 }
 .heart__container .heart {
   cursor: pointer;
+  height: 30px;
 }
 .heart__container .heart:hover {
   background: -webkit-linear-gradient(60deg, #ff79da, #9356dc);
