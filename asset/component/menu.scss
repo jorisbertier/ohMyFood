@@ -31,6 +31,7 @@
             position: relative;
             margin-bottom: 20px;
             margin-top: 40px;
+
             &-text{
                 margin-left: 5%;
                 font-size: 16px;
@@ -165,9 +166,21 @@
 
                 &-menu {
 
+                    &-heading {
+                        &-text {
+                            margin-left: 15%;
+                        }
+
+                        &-border {
+                            margin-left: 15%;
+                        }
+
+                    }
+
                     &-item {
                         justify-content: center;
                     }
+                    
                     &-article {
                         width: 70%;
                         margin-left: 15%;

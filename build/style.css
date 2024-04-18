@@ -364,6 +364,12 @@ footer ul i {
     justify-content: center;
     gap: 20px;
   }
+  #main__palette .main__palette-menu-heading-text {
+    margin-left: 15%;
+  }
+  #main__palette .main__palette-menu-heading-border {
+    margin-left: 15%;
+  }
   #main__palette .main__palette-menu-item {
     justify-content: center;
   }
