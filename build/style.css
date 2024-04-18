@@ -176,7 +176,7 @@ footer ul a i {
   display: flex;
   flex-direction: column;
 }
-.wrapper__search .wrapper__search--title {
+.wrapper__search .wrapper__search-title {
   margin-left: 5%;
 }
 .wrapper__search .wrapper__section {
@@ -202,7 +202,7 @@ footer ul a i {
   align-items: center;
   position: absolute;
   top: 25px;
-  left: 14px;
+  left: 26px;
   transform: translateX(-50%);
   z-index: 1;
 }
@@ -513,7 +513,7 @@ footer ul a i {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  width: 90%;
+  width: 86%;
   height: 72.38px;
   top: 602.3px;
   left: 32.51px;
@@ -527,8 +527,8 @@ footer ul a i {
   line-height: 18.75px;
   padding-right: 12%;
   padding-left: 5%;
-  margin-left: 5%;
-  margin-right: 5%;
+  margin-left: 7%;
+  margin-right: 7%;
 }
 
 .wrapper_menu--button {
