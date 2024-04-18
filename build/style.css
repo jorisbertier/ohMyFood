@@ -266,13 +266,13 @@ footer ul i {
   justify-content: center;
 }
 .main__palette-menu-article-title {
-  font-size: 18px;
+  font-size: 15px;
   font-weight: 500;
   height: 30px;
   margin-bottom: -10px;
 }
 .main__palette-menu-article-description {
-  font-size: 15.04px;
+  font-size: 12px;
   font-weight: 300;
   height: 40%;
 }
@@ -313,6 +313,14 @@ footer ul i {
   width: 59px;
 }
 
+@media (min-width: 375px) {
+  .main__palette-menu-article-title {
+    font-size: 18px;
+  }
+  .main__palette-menu-article-description {
+    font-size: 15px;
+  }
+}
 /* Restaurants */
 .header_palette img {
   width: 100%;

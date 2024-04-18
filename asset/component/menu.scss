@@ -74,14 +74,14 @@
             }
 
             &-title {
-                    font-size: 18px;
+                    font-size: 15px;
                     font-weight: 500;
                     height: 30px;
                     margin-bottom: -10px;
             }
 
             &-description {
-                font-size: 15.04px;
+                font-size: 12px;
                 font-weight: 300;
                 height: 40%;
             }
@@ -126,4 +126,15 @@
 .main__palette-menu-article:hover .main__palette-menu-container-color {
     visibility: visible;
     width: 59px;
+}
+
+@media (min-width: 376px) {
+    .main__palette-menu-article {
+        &-title {
+            font-size: 18px;
+        }
+        &-description {
+            font-size: 15px;
+        }
+    }
 }
