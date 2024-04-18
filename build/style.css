@@ -297,18 +297,18 @@ footer ul a i {
 .restaurants .restaurants__wrapper--card-content-txt:nth-child(2) .fa-regular, .restaurants .restaurants__wrapper--card-content-txt:nth-child(2) .fa-solid {
   font-size: 22px;
 }
-.restaurants .restaurants__wrapper--card-content-txt .heart__container {
+.heart__container {
   position: relative;
   padding-right: 10px;
 }
-.restaurants .restaurants__wrapper--card-content-txt .heart__container .heart--card {
+.heart__container .heart--card {
   -webkit-text-stroke: 0.05rem #fff;
   /* Réduit l'épaiseur des contours du coeur vide */
 }
-.restaurants .restaurants__wrapper--card-content-txt .heart__container .heart {
+.heart__container .heart {
   cursor: pointer;
 }
-.restaurants .restaurants__wrapper--card-content-txt .heart__container .heart:hover {
+.heart__container .heart:hover {
   background: -webkit-linear-gradient(60deg, #ff79da, #9356dc);
   background: -o-linear-gradient(60deg, #ff79da, #9356dc);
   background: linear-gradient(30deg, #ff79da, #9356dc);
@@ -320,13 +320,13 @@ footer ul a i {
   -webkit-text-stroke: 0;
   /* Supprime le text-stroke au survol */
 }
-.restaurants .restaurants__wrapper--card-content-txt .heart__container .heart:hover + .heart-full {
+.heart__container .heart:hover + .heart-full {
   -webkit-transform: scale(1);
   -ms-transform: scale(1);
   transform: scale(1);
   /* Permet l'apparition du coeur plein */
 }
-.restaurants .restaurants__wrapper--card-content-txt .heart__container .heart-full {
+.heart__container .heart-full {
   padding-right: 10px;
   position: absolute;
   /* Pour que les coeurs aient la meme position */
@@ -341,11 +341,14 @@ footer ul a i {
   color: transparent;
   /* Applique la couleur du background au texte (les coeurs sont du texte) */
   -webkit-transform: scale(0);
+  -ms-transform: scale(0);
+  transform: scale(0);
   /* Permet l'apparition du coeur plein */
+  -webkit-transition: -webkit-transform 300ms ease-in-out;
+  transition: -webkit-transform 300ms ease-in-out;
+  -o-transition: transform 300ms ease-in-out;
+  transition: transform 300ms ease-in-out;
   transition: transform 300ms ease-in-out, -webkit-transform 300ms ease-in-out;
-}
-.restaurants .restaurants__wrapper--card-content .fa-solid {
-  color: blue;
 }
 
 @media (min-width: 1024px) {
