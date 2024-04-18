@@ -413,6 +413,7 @@ footer ul a i {
   #main__palette .main__palette-menu-article {
     width: 70%;
     margin-left: 15%;
+    cursor: pointer;
   }
 }
 /* Restaurants */
