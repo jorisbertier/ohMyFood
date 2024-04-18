@@ -4,150 +4,201 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/build/style.css" >
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Shrikhand&display=swap">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <title>OhMyFood</title>
+    <title>La note enchantée</title>
 </head>
 <body>
-    <nav class="nav__main">
-        <img src="./asset/img/logo/ohmyfood.png" alt="logo ohMyFood">
+
+    <nav class="nav__restaurant">
+        <a href="/index.html">
+            <i class="fa-solid fa-arrow-left"></i>
+        </a>
+        <a href="/index.html">
+            <img src="../asset/img/logo/ohmyfood.png" alt="logo ohMyFood">
+        </a>
+        <div></div>
     </nav>
-    <div>
-        <header class="header">
-            <div class="header__position">
-                <i class="fa-solid fa-location-dot"></i>
-                <input type="text" value="Paris, Belleville" readonly>
-            </div>
-            <div class="header__explore">
-                <h1>Réserver le menu qui vous convient</h1>
-                <p>Découvrez des restaurants d'expection, sélectionnés par nos soins.</p>
-                <button class="button-radient">Explorer nos restaurants</button>
-            </div>
-        </header>
-        <main>
-            <div class="wrapper__search">
-                <h2 class="wrapper__search-title">
-                    Fonctionnement
-                </h2>
-                <div class="wrapper__section">
-                    <div class="wrapper__search__section">
-                        <div class="wrapper__search__section--number">1</div>
-                        <button class="wrapper__search__section--button">
-                            <i class="fa-solid fa-mobile-screen-button"></i>
-                            <p>Choisissez un restaurant</p>
-                        </button>
-                    </div>
-                    <div class="wrapper__search__section">
-                        <div class="wrapper__search__section--number">2</div>
-                        <button class="wrapper__search__section--button">
-                            <i class="fa-solid fa-list-ul"></i>
-                            <p>Composer votre menu</p>
-                        </button>
-                    </div>
-                    <div class="wrapper__search__section">
-                        <div class="wrapper__search__section--number">3</div>
-                        <button class="wrapper__search__section--button">
-                            <i class="fa-solid fa-store wrapper__search__section--button--violet"></i>
-                            <p>Dégustez au restaurant</p>
-                        </button>
-                    </div>
+
+    <header class="header__palette">
+        <img src="../asset/img/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg" alt="Saumon dans une assiette">
+    </header>
+
+
+    <main id="main__palette">
+        <div class="main__palette main__palette--modifier">
+            <div class="main__palette-title">
+                <h1 class="main__palette-title-text">La palette du goût</h1>
+                <div class="main__palette-title-icon">
+                    <i class="fa-regular fa-heart"></i>
                 </div>
             </div>
 
-            <div class="restaurants">
-                <h2 class="restaurants-title">Restaurants</h2>
-                <div class="restaurants__wrapper">
-
-                    <a href="/restaurants/LaPalette.html">
-                        <article class="restaurants__wrapper--card">
-                            <img src="./asset/img/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg" alt="Saumon dans une assiette">
-                            <div class="restaurants__wrapper--card-content">
-                                <div class="restaurants__wrapper--card-content-txt">
-                                    <h3 class="restaurants__wrapper--card-txt-title">La palette du goût</h3>
-                                    <span class="restaurants__wrapper--card-txt-subtitle">Ménilmontants</span>
-                                </div>
-                                <div class="restaurants__wrapper--card-content-txt">
-                                    <label for="heart-check" class="heart__container">
-                                        <i class="fa-regular fa-heart heart heart--card"></i>
-                                        <i class="fa-solid fa-heart heart-full"></i>
-                                    </label>
-                                </div>
+            <div class="main__palette-menu">
+                <div class="main__palette-menu-heading">
+                    <h2 class="main__palette-menu-heading-text">Entrées</h2>
+                    <span class="main__palette-menu-heading-border"></span>
+                </div>
+                <div class="main__palette-menu-item">
+                    <article class="main__palette-menu-article">
+                        <div class="main__palette-menu-article-info">
+                            <h3 class="main__palette-menu-article-title">Fricasée d'escargots</h3>
+                            <p class="main__palette-menu-article-description">Au piment d'espelette</p>
+                        </div>
+                        <div class="main__palette-menu-container">
+                            <div class="main__palette-menu-container-price">25€</div>
+                            <div class="main__palette-menu-container-color">
+                                <i class="fa-solid fa-circle-check"></i>
                             </div>
-                        </article>
-                    </a>
-
-                    <a href="/restaurants/LeDelice.html">
-                        <article class="restaurants__wrapper--card">
-                            <img src="./asset/img/restaurants/stil-u2Lp8tXIcjw-unsplash.jpg" alt="Boulette de viande">
-                            <div class="restaurants__wrapper--card-content">
-                                <div class="restaurants__wrapper--card-content-txt">
-                                    <h3 class="restaurants__wrapper--card-txt-title">La note enchantée</h3>
-                                    <span class="restaurants__wrapper--card-txt-subtitle">Charonne</span>
-                                </div>
-                                <div class="restaurants__wrapper--card-content-txt">
-                                    <label for="heart-check" class="heart__container">
-                                        <i class="fa-regular fa-heart heart heart--card"></i>
-                                        <i class="fa-solid fa-heart heart-full"></i>
-                                    </label>
-                                </div>
+                        </div>
+                    </article>
+                    <article class="main__palette-menu-article">
+                        <div class="main__palette-menu-article-info">
+                            <h3 class="main__palette-menu-article-title">Foie gras de canard mi-cuit</h3>
+                            <p class="main__palette-menu-article-description">Et ses copeaux de truffe noire</p>
+                        </div>
+                        <div class="main__palette-menu-container">
+                            <div class="main__palette-menu-container-price">35€</div>
+                            <div class="main__palette-menu-container-color">
+                                <i class="fa-solid fa-circle-check"></i>
                             </div>
-                        </article>
-                    </a>
-
-                    <a href="#">
-                        <article class="restaurants__wrapper--card">
-                            <img src="./asset/img/restaurants/toa-heftiba-DQKerTsQwi0-unsplash.jpg" alt="Plat gastronomique">
-                            <div class="restaurants__wrapper--card-content">
-                                <div class="restaurants__wrapper--card-content-txt">
-                                    <h3 class="restaurants__wrapper--card-txt-title">À la francaise</h3>
-                                    <span class="restaurants__wrapper--card-txt-subtitle">Cité rouge</span>
-                                </div>
-                                <div class="restaurants__wrapper--card-content-txt">
-                                    <label for="heart-check" class="heart__container">
-                                        <i class="fa-regular fa-heart heart heart--card"></i>
-                                        <i class="fa-solid fa-heart heart-full"></i>
-                                    </label>
-                                </div>
+                        </div>
+                    </article>
+                    <article class="main__palette-menu-article">
+                        <div class="main__palette-menu-article-info">
+                            <h3 class="main__palette-menu-article-title">Oeuf au plat</h3>
+                            <p class="main__palette-menu-article-description">Assaisonné à la truffe sur lit de caviar</p>
+                        </div>
+                        <div class="main__palette-menu-container">
+                            <div class="main__palette-menu-container-price">20€</div>
+                            <div class="main__palette-menu-container-color">
+                                <i class="fa-solid fa-circle-check"></i>
                             </div>
-                        </article>
-                    </a>
+                        </div>
+                    </article>
+                </div>
 
-                    <a href="#">
-                        <article class="restaurants__wrapper--card">
-                            <img src="./asset/img/restaurants/louis-hansel-shotsoflouis-qNBGVyOCY8Q-unsplash.jpg" alt="Plat de sèche gastronomique">
-                            <div class="restaurants__wrapper--card-content">
-                                <div class="restaurants__wrapper--card-content-txt">
-                                    <h3 class="restaurants__wrapper--card-txt-title">Le délice des sens</h3>
-                                    <span class="restaurants__wrapper--card-txt-subtitle">Folie-Méricourt</span>
-                                </div>
-                                <div class="restaurants__wrapper--card-content-txt">
-                                    <label for="heart-check" class="heart__container">
-                                        <i class="fa-regular fa-heart heart heart--card"></i>
-                                        <i class="fa-solid fa-heart heart-full"></i>
-                                    </label>
-                                </div>
+            <div class="main__palette-menu">
+                <div class="main__palette-menu-heading">
+                    <h2 class="main__palette-menu-heading-text">Plats</h2>
+                    <span class="main__palette-menu-heading-border"></span>
+                </div>
+                <div class="main__palette-menu-item">
+                    <article class="main__palette-menu-article">
+                        <div class="main__palette-menu-article-info">
+                            <h3 class="main__palette-menu-article-title">Filet de boeuf aux herbes</h3>
+                            <p class="main__palette-menu-article-description">Accompagné de sa ribambelle de légumes</p>
+                        </div>
+                        <div class="main__palette-menu-container">
+                            <div class="main__palette-menu-container-price">40€</div>
+                            <div class="main__palette-menu-container-color">
+                                <i class="fa-solid fa-circle-check"></i>
                             </div>
-                        </article>
-                    </a>
-
+                        </div>
+                    </article>
+                    <article class="main__palette-menu-article">
+                        <div class="main__palette-menu-article-info">
+                            <h3 class="main__palette-menu-article-title">Parmentier de queue de boeuf</h3>
+                            <p class="main__palette-menu-article-description">À la truffe noire sur sa purée de panais</p>
+                        </div>
+                        <div class="main__palette-menu-container">
+                            <div class="main__palette-menu-container-price">35€</div>
+                            <div class="main__palette-menu-container-color">
+                                <i class="fa-solid fa-circle-check"></i>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="main__palette-menu-article">
+                        <div class="main__palette-menu-article-info">
+                            <h3 class="main__palette-menu-article-title">Filet de turbot</h3>
+                            <p class="main__palette-menu-article-description">Aux agrumes</p>
+                        </div>
+                        <div class="main__palette-menu-container">
+                            <div class="main__palette-menu-container-price">44€</div>
+                            <div class="main__palette-menu-container-color">
+                                <i class="fa-solid fa-circle-check"></i>
+                            </div>
+                        </div>
+                    </article>
                 </div>
             </div>
 
-        </main>
-        <footer>
-            <img src="./asset/img/logo/ohmyfood@2x.svg" alt="logo ohMyFood">
-            <ul>
-                <li>
+            <div class="main__palette-menu">
+                <div class="main__palette-menu-heading">
+                    <h2 class="main__palette-menu-heading-text">Desserts</h2>
+                    <span class="main__palette-menu-heading-border"></span>
+                </div>
+                <div class="main__palette-menu-item">
+                    <article class="main__palette-menu-article">
+                        <div class="main__palette-menu-article-info">
+                            <h3 class="main__palette-menu-article-title">Paris-Brest</h3>
+                            <p class="main__palette-menu-article-description">Revisité</p>
+                        </div>
+                        <div class="main__palette-menu-container">
+                            <div class="main__palette-menu-container-price">18€</div>
+                            <div class="main__palette-menu-container-color">
+                                <i class="fa-solid fa-circle-check"></i>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="main__palette-menu-article">
+                        <div class="main__palette-menu-article-info">
+                            <h3 class="main__palette-menu-article-title">Macaron au chocolat d'exception</h3>
+                            <p class="main__palette-menu-article-description">Et glace à la vanille de Madagascar</p>
+                        </div>
+                        <div class="main__palette-menu-container">
+                            <div class="main__palette-menu-container-price">22€</div>
+                            <div class="main__palette-menu-container-color">
+                                <i class="fa-solid fa-circle-check"></i>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="main__palette-menu-article">
+                        <div class="main__palette-menu-article-info">
+                            <h3 class="main__palette-menu-article-title">Mousse au chocolat</h3>
+                            <p class="main__palette-menu-article-description">Au piment d'Espelette et à la truffe noire</p>
+                        </div>
+                        <div class="main__palette-menu-container">
+                            <div class="main__palette-menu-container-price">23€</div>
+                            <div class="main__palette-menu-container-color">
+                                <i class="fa-solid fa-circle-check"></i>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+
+            <div class="wrapper_menu--button">
+                <button class="button-radient">Commander</button>
+            </div>
+
+        </div>
+    </main>
+
+
+
+    <footer class="footer__restaurant">
+        <img src="../asset/img/logo/ohmyfood@2x.svg" alt="logo ohMyFood">
+        <ul>
+            <a href="#">
+                <li class="menu--bold">
                     <i class="fa-solid fa-utensils"></i>
                     Proposer un restaurant
                 </li>
-                <li>
+            </a>
+            <a href="#">
+                <li class="menu--bold">
                     <i class="fa-solid fa-handshake-angle"></i>
                     Devenir partenaires
                 </li>
+            </a>
+            <a href="#">
                 <li>Mentions légales</li>
+            </a>
+            <a href="#">
                 <li>Contact</li>
-            </ul>
-        </footer>
-    </div>
+            </a>
+        </ul>
+    </footer>
 </body>
 </html>
