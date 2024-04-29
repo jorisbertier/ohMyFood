@@ -17,7 +17,7 @@ body {
   height: 5%;
   padding: 20px;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.2509803922);
-  background: pink;
+  background: blue;
 }
 .nav__main img {
   width: 197px;
@@ -41,6 +41,7 @@ body {
 }
 .nav__restaurant a i {
   font-size: 20px;
+  color: black;
 }
 
 header {
@@ -660,4 +661,7 @@ footer ul a i {
   padding-bottom: 40px;
 }
 
-/*# sourceMappingURL=style.css.map */
+
+
+
+/*# sourceMappingURL=/style.72001a19.css.map */

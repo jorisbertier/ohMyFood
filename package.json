@@ -4,12 +4,17 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "watch": "sass --watch asset/style/index.scss build/style.css"
+    "watch": "sass --watch asset/style/index.scss build/style.css",
+    "dev": "parcel index.html",
+    "build": "parcel build index.html"
   },
   "keywords": [],
   "author": "Joris Bertier",
   "license": "ISC",
   "dependencies": {
     "sass": "^1.75.0"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.12.5"
   }
 }
