@@ -17,7 +17,6 @@ body {
   height: 5%;
   padding: 20px;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.2509803922);
-  background: pink;
 }
 .nav__main img {
   width: 197px;
@@ -596,6 +595,19 @@ footer ul a i {
   #main__palette .main__palette-menu-article {
     width: 70%;
     margin-left: 15%;
+  }
+  .main__palette-menu-article {
+    transition: all 0.7s ease-in-out;
+    transform-origin: left;
+  }
+  .main__palette-menu-article:nth-child(1) {
+    transition-delay: 0.25;
+  }
+  .main__palette-menu-article:nth-child(2) {
+    transition-delay: 0.5;
+  }
+  .main__palette-menu-article:nth-child(3) {
+    transition-delay: 0.75;
   }
 }
 /* Restaurants */

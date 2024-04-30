@@ -144,7 +144,8 @@
     //     font-size:20px;
     // }
     .main__palette-menu-article {
-
+        
+        // transition-delay: 2s;
         &-title {
             font-size: 18px;
         }
@@ -153,7 +154,9 @@
             font-size: 15px;
         }
     }
+    
 }
+
 
 @media (min-width: 1024px) {
 
@@ -207,4 +210,33 @@
                 }
             }
     }
+
+    $delay-step: 0.3s;
+    $total-duration: 0s;
+
+    .main__palette-menu-article {
+        transition: all 0.7s ease-in-out;
+        transform-origin: left;
+
+        @for $i from 1 to 4 {
+            &:nth-child(#{$i}) {
+                transition-delay: $i *0.25; // Applique le délai
+            }
+        }
+    }
+    // .main__palette-menu-article:nth-child(1) {
+
+    // }
+    // .main__palette-menu-article:nth-child(2) {
+    //     transition-delay: 0.2s;
+        
+    // }
+    // .main__palette-menu-article:nth-child(3) {
+    //     transition-delay: 0.4s;
+    // }
+    // .main__palette-menu-article:nth-child(4) {
+    //     transition-delay: 0.6s;
+    // }
+
 }
+// test
